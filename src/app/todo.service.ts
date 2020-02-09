@@ -7,7 +7,7 @@ import { ToDoItem } from './ToDoItem.model';
   providedIn: 'root'
 })
 export class TodoService {
-  serverUrl: string = "http://to-doapp-8080.herokuapp.com";
+  serverUrl: string = "https://to-doapp-8080.herokuapp.com";
   // serverUrl: string = "http://localhost:3000";
   constructor(private http: HttpClient) { }
 
